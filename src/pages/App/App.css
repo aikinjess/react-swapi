@@ -1,0 +1,77 @@
+body { 
+  background: url(https://st2.depositphotos.com/7325936/12154/v/600/depositphotos_121547618-stock-illustration-warp-stars-galaxy.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  color: white;
+  text-align: center;
+  background-size: cover;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.App-header a {
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(4, minmax(100px, 2fr));
+  gap: 1rem;
+  max-width: 900px;
+  margin: auto;
+ 
+}
+
+.starships:hover {
+  background-color: #193885;
+  transition: 0.4s ease;
+  font-size: 23px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  margin-bottom: 75px;
+}
+
+.starships {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2px;
+  box-shadow: 0 0 5px 2px gray;
+  height: 150px;
+  cursor: pointer;
+  background-color: rgb(68, 75, 80);
+}
+
+.links {
+  text-decoration: none;
+  color: white;
+}
+
+.return-link {
+  color: white;
+}
+
+.starshipDetails {
+  background-color: #193885;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  border-radius: 2px;
+  box-shadow: 0 0 5px 2px gray;
+  min-height: 250px;
+  max-width: 550px;
+  cursor: pointer;
+  margin: auto;
+  padding-left: 15px;
+}
